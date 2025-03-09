@@ -1,0 +1,15 @@
+{
+  "name": "font-family-switcher",
+  "version": "1.0.0",
+  "description": "Switch between kaishu and zhuyin font families for Chinese text.",
+  "main": "background.js",
+  "scripts": {
+    "build": "web-ext build",
+    "start": "web-ext run"
+  },
+  "author": "Hugo Lopez",
+  "license": "MIT",
+  "devDependencies": {
+    "web-ext": "^6.4.0"
+  }
+}
