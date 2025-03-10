@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>Font Family Switcher</title>
+  <link href="./css/bootstrap.min.css" rel="stylesheet">
   <style>
     body {
       width: 200px;
@@ -13,10 +14,12 @@
     }
   </style>
 </head>
-<body>
-  <button id="kaishu">Kaishu</button>
-  <button id="zhuyin">Zhuyin</button>
-  <button id="none">None</button>
+<body class="container"></body>
+  <div class="btn-group-vertical" role="group" aria-label="Font Family Switcher">
+    <button id="kaishu" class="btn btn-primary">Kaishu</button>
+    <button id="zhuyin" class="btn btn-secondary">Zhuyin</button>
+    <button id="none" class="btn btn-danger">None</button>
+  </div>
   <script src="popup.js"></script>
 </body>
 </html>

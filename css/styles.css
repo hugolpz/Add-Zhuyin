@@ -1,8 +1,8 @@
 @font-face {
   font-family: 'kaishu';
   src: url('https://www.chinois-sans-frontieres.tw/fonts/kaishu/AR_PL_ZenKai_Uni.woff2') format('woff2'),
-    url('https://www.chinois-sans-frontieres.tw/fonts/kaishu/AR_PL_ZenKai_Uni.woff') format('woff'),
-    url('https://www.chinois-sans-frontieres.tw/fonts/kaishu/AR_PL_ZenKai_Uni.ttf') format('truetype');
+       url('https://www.chinois-sans-frontieres.tw/fonts/kaishu/AR_PL_ZenKai_Uni.woff') format('woff'),
+       url('https://www.chinois-sans-frontieres.tw/fonts/kaishu/AR_PL_ZenKai_Uni.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -10,8 +10,8 @@
 @font-face {
   font-family: 'zhuyin';
   src: url('https://www.chinois-sans-frontieres.tw/fonts/zhuyin/HanWangKaiMediumChuIn.woff2') format('woff2'),
-    url('https://www.chinois-sans-frontieres.tw/fonts/zhuyin/HanWangKaiMediumChuIn.woff') format('woff'),
-    url('https://www.chinois-sans-frontieres.tw/fonts/zhuyin/HanWangKaiMediumChuIn.ttf') format('truetype');
+       url('https://www.chinois-sans-frontieres.tw/fonts/zhuyin/HanWangKaiMediumChuIn.woff') format('woff'),
+       url('https://www.chinois-sans-frontieres.tw/fonts/zhuyin/HanWangKaiMediumChuIn.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
   font-display: swap;

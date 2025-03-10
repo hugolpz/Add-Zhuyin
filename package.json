@@ -5,11 +5,33 @@
   "main": "background.js",
   "scripts": {
     "build": "web-ext build",
-    "start": "web-ext run"
+    "start": "web-ext run",
+    "web-ext:build": "web-ext build    # zips all content but .git files",
+    "web-ext:test-firefox" : "web-ext run --source-dir ./ --url=zh.wikipedia.org/wiki/Firefox  --target=firefox-desktop",
+    "web-ext:test-chromium": "web-ext run --source-dir ./ --url=zh.wikipedia.org/wiki/Chromium --target=chromium"
   },
-  "author": "Hugo Lopez",
-  "license": "MIT",
   "devDependencies": {
-    "web-ext": "^6.4.0"
-  }
+    "web-ext": "^7.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugolpz/Add-Zhuyin.git"
+  },
+  "keywords": [
+    "zhuyin",
+    "pinyin",
+    "webextension",
+    "firefox",
+    "chrome"
+  ],
+  "author": {
+      "name": "Hugo Lopez",
+      "email": "https://meta.wikimedia.org/wiki/Special:EmailUser/Yug",
+      "url": "https://meta.wikimedia.org/wiki/user:Yug"
+    },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hugolpz/Add-Zhuyin/issues"
+  },
+  "homepage": "https://github.com/hugolpz/Add-Zhuyin#readme"
 }
