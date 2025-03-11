@@ -8,3 +8,4 @@ chrome.action.onClicked.addListener((tab) => {
     files: ['content.js']
   });
 });
+
