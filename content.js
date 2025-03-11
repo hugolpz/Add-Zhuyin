@@ -68,6 +68,7 @@ console.log('Content script is running2');
       style.id = 'add-zhuyin';
       document.body.appendChild(style);
     }
+    // http://hugolpz.github.io/hanwangfonts/HanWangKai-Font.ttf
     style.textContent = `
     @font-face {
       font-family: 'kaishu';
@@ -82,7 +83,8 @@ console.log('Content script is running2');
       font-family: 'zhuyin';
       src: url('https://www.chinois-sans-frontieres.tw/fonts/zhuyin/HanWangKaiMediumChuIn.woff2') format('woff2'),
            url('https://www.chinois-sans-frontieres.tw/fonts/zhuyin/HanWangKaiMediumChuIn.woff') format('woff'),
-           url('https://www.chinois-sans-frontieres.tw/fonts/zhuyin/HanWangKaiMediumChuIn.ttf') format('ttf');      font-weight: 500;
+           url('https://www.chinois-sans-frontieres.tw/fonts/zhuyin/HanWangKaiMediumChuIn.ttf') format('ttf');
+      font-weight: 500;
       font-style: normal;
       font-display: swap;
     }
