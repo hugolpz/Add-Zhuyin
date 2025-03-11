@@ -7,6 +7,7 @@ module.exports = {
 		'package-lock.json',
 		'package-lock.json',
 		'dist/',
+		'fonts/',
 		'README.md',
 		'web-ext-config.js',
 	],

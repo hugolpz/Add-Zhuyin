@@ -1,6 +1,6 @@
 {
   "name": "font-family-switcher",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Switch between kaishu and zhuyin font families for Chinese text.",
   "main": "background.js",
   "scripts": {
