@@ -47,9 +47,8 @@ console.log('Content script is running2');
   });
 
   /* ADVANCED ****************************** */
-  if (fontFamily) {
+  if (fontFamily && fontFamily !== 'none') {
     console.log('fontFamily:', fontFamily);
-    console.log( chrome.runtime.getURL('css/HanWangKaiMediumChuIn.woff2'))
   // Purge font-family styles from the DOM when loaded
     console.log('Purge font-family styles from the DOM when loaded');
     // Methode 1
@@ -95,7 +94,9 @@ console.log('Content script is running2');
     :lang(zh-Hans) *,
     :lang(zh-Hans-CN) * ,
     :lang(zh-Hans-MY) * ,
-    :lang(zh-Hans-SG) * { font-family: '${fontFamily}' !important; }`
+    :lang(zh-Hans-SG) * { 
+      font-family: '${fontFamily}' !important;
+    }`
   }
 
 });

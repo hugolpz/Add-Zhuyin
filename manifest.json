@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Font Family Switcher",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Switch between kaishu and zhuyin font families.",
   "permissions": ["activeTab", "storage", "https://www.chinois-sans-frontieres.tw/*"],
   "action": {

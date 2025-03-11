@@ -1,5 +1,5 @@
 chrome.runtime.onInstalled.addListener(() => {
-  chrome.storage.sync.set({ fontFamily: '' });
+  chrome.storage.sync.set({ fontFamily: 'none' });
 });
 
 chrome.action.onClicked.addListener((tab) => {
