@@ -33,5 +33,8 @@
   "bugs": {
     "url": "https://github.com/hugolpz/Add-Zhuyin/issues"
   },
-  "homepage": "https://github.com/hugolpz/Add-Zhuyin#readme"
+  "homepage": "https://github.com/hugolpz/Add-Zhuyin#readme",
+  "dependencies": {
+    "opencc-js": "^1.4.2"
+  }
 }

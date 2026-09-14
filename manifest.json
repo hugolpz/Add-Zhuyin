@@ -25,7 +25,7 @@
     {
       "matches": ["<all_urls>"],
       "css": ["css/styles.css", "css/bootstrap.min.css"],
-      "js": ["content.js"]
+      "js": ["js/opencc-cn2t.js", "js/simplified-to-traditional.js", "content.js"]
     }
   ],
   "web_accessible_resources": [

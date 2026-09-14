@@ -67,10 +67,6 @@ console.log('Content script is running2');
     console.log('fontFamily:', fontFamily);
   // Purge font-family styles from the DOM when loaded
     console.log('Purge font-family styles from the DOM when loaded');
-    // Methode 1
-    const html = document.documentElement.outerHTML.replace(/font-family:.+?;/g, '');
-    document.documentElement.innerHTML = html;
-    // Method 2
     const elements = document.querySelectorAll('*');
     elements.forEach(element => {
       element.style.fontFamily = '';
