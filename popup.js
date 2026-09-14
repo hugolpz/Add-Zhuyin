@@ -13,4 +13,5 @@ function setFontFamilyAndReload(fontFamily) {
 
 setFontFamilyAndReload('kaishu');
 setFontFamilyAndReload('zhuyin');
+setFontFamilyAndReload('pinyin');
 setFontFamilyAndReload('none');
